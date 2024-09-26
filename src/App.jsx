@@ -8,8 +8,10 @@ import router from "@/routes";
 import { store } from "@/store";
 
 import "@/styles/style.scss";
+// import { useTranslation } from "react-i18next";
 
 function App() {
+  // const {t, il8n: { changeLanguage,language } } = useTranslation();
   return (
     <Provider store={store}>
       <AppSuspense>
